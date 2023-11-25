@@ -38,12 +38,29 @@ CREATE TABLE IF NOT EXISTS `products` (
 -- Dumping data for table `products`
 
 INSERT INTO `products` (`id`, `product_code`, `product_name`, `product_desc`, `product_img_name`, `qty`, `price`) VALUES
-(1, 'SPORTSHUB1', 'Sports Shoes', 'With a clean vamp, tonal stitch details throughout, and a unique formstripe finish, the all new sports shoes fits the needs of multiple running consumers by offering an athletic and a lifestyle look.', 'sports_shoes.jpg', 26, 5000.00),
-(2, 'SPORTSHUB2', 'Cap', 'A sleek, tonal stitched cap for runners. The plain texture and unique design will help runners to concentrate more on running and less on their hair. The combbination of casual and formal look is just brilliant.', 'cap.jpg', 7, 200.00),
-(3, 'SPORTSHUB3', 'Sports Band', 'The Sports Band collection features highly polished stainless steel and space black stainless steel cases. The display is protected by sapphire crystal. And there is a choice of three different leather bands.', 'sports_band.jpg', 34, 1000.00),
-(4, 'SPORTSHUB4', 'Sports Shoes', 'With a clean vamp, tonal stitch details throughout, and a unique formstripe finish, the all new sports shoes fits the needs of multiple running consumers by offering an athletic and a lifestyle look.', 'sports_shoes.jpg', 26, 5000.00),
-(5, 'SPORTSHUB5', 'Cap', 'A sleek, tonal stitched cap for runners. The plain texture and unique design will help runners to concentrate more on running and less on their hair. The combbination of casual and formal look is just brilliant.', 'cap.jpg', 7, 200.00),
-(6, 'SPORTSHUB6', 'Sports Band', 'The Sports Band collection features highly polished stainless steel and space black stainless steel cases. The display is protected by sapphire crystal. And there is a choice of three different leather bands.', 'sports_band.jpg', 34, 1000.00);
+(1, '1', 'Sports Shoes', 'soccer', 'shoes2.png', 10000, 5000.00),
+(2, '2', 'Ball', 'soccer', 'soccer_ball1.png', 10000, 3400.00),
+(3, '3', 'Sports Shoes', 'soccer', 'shoes.png', 10000, 6500.00),
+(4, '4', 'Shin guard', 'soccer', 'shinguard1.png', 10000, 3800.00),
+(5, '5', 'Sports Shoes', 'soccer', 'shoes2.png', 10000, 5000.00),
+(6, '6', 'Sports Shoes', 'soccer', 'shoes.png', 10000, 6500.00),
+(7, '7', 'Ball', 'soccer', 'socce_ball2.png', 10000, 6300.00),
+(8, '8', 'Shin guard', 'soccer', 'shinguard1.png', 10000, 3800.00),
+(9, '9', 'Shin guard', 'soccer', 'shinguard1.png', 10000, 3800.00),
+(10, '10', 'Sports Shoes', 'soccer', 'shoes2.png', 10000, 5000.00),
+(11, '11', 'Sports Shoes', 'soccer', 'shoes.png', 10000, 6500.00),
+(12, '12', 'Ball', 'soccer', 'socce_ball2.png', 10000, 6300.00),
+(13, '13', 'Shin guard', 'soccer', 'shinguard1.png', 10000, 3800.00),
+(14, '14', 'Sports Shoes', 'soccer', 'shoes2.png', 10000, 5000.00),
+(15, '15', 'Ball', 'soccer', 'soccer_ball1.png', 10000, 3400.00),
+(16, '16', 'Sports Shoes', 'soccer', 'shoes.png', 10000, 6500.00),
+(17, '17', 'Shin guard', 'soccer', 'shinguard1.png', 10000, 3800.00),
+(18, '18', 'Sports Shoes', 'soccer', 'shoes2.png', 10000, 5000.00),
+(19, '19', 'Sports Shoes', 'soccer', 'shoes2.png', 10000, 5000.00),
+(20, '20', 'Sports Shoes', 'soccer', 'shoes.png', 10000, 6500.00),
+(21, '21', 'Ball', 'soccer', 'socce_ball2.png', 10000, 6300.00),
+(22, '22', 'Sports Shoes', 'soccer', 'shoes.png', 10000, 6500.00);
+
 
 
 
