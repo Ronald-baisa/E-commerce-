@@ -27,6 +27,8 @@ include 'config.php';
     <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/table.css">
     <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 </head>
   
 </head>
@@ -106,6 +108,7 @@ include 'config.php';
  <footer>
     <p>&copy; Sportshub. All Rights Reserved.</p>
 </footer>
+
 </body>
 </html>
 

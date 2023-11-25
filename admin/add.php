@@ -71,7 +71,7 @@ include 'config.php';
             </tr>
             <tr> 
                 <td>Quantity</td>
-                <td><input type="number" name="qty"></td>
+                <td><input type="number" name="qty" maxlength="6"></td>
             </tr>
             <tr> 
                 <td>Price</td>
