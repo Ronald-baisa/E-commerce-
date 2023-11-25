@@ -1,0 +1,27 @@
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 15px;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.rating span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  color: gray; /* Default star color */
+}
+
+.rating span:hover:before,
+.rating span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+  color: orange; /* Yellow star color on hover */
+}
+
+.rating span:hover ~ span:before {
+  content: "\2606";
+  color: orange;
+}
